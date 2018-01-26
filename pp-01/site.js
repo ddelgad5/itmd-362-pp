@@ -2,7 +2,7 @@ $('#form').on("submit", function(e) {
   e.preventDefault(); //Prevent link
   console.log("Attempting submission"); //Add to console
   var today = new Date(); //Get todays date
-  var bdate = $('#date')[0].valueAsDate; //Get user DOB
+  var bdate = new Date($('#date')[0].value); //Get user DOB
   var tyear = today.getFullYear(); //Get todays year
   var byear = bdate.getFullYear(); //Get users YOB
   if ( tyear - byear > 18 ) {
