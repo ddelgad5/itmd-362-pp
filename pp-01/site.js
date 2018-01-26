@@ -7,16 +7,24 @@ $('#form').on("submit", function(e) {
   var byear = bdate.getFullYear(); //Get users YOB
   if ( tyear - byear > 21 ) {
     console.log("Greater than 21 yrs. old");
+    formsubmitted();
   }
   else if ( tyear - byear === 21 ) {
     console.log("Equal to 21 yrs. old");
+
   }
   else {
     console.log("Less than 21 yrs. old");
+    not21();
   }
 });
 
 function formsubmitted() {
   console.log("Form passed proper tests");
+
+}
+
+function not21() {
+  console.log("Under 21");
   
 }
