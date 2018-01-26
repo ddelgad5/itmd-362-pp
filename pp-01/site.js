@@ -21,11 +21,21 @@ $('#form').on("submit", function(e) {
     }
     else if ( tmonth === bmonth ) {
       //calculate days
-      var tday = today.getDay();
-      var bday = bdate.getDay();
-      console.log("tday = " + tday);
-      console.log("bday = " + bday);
-
+      var tday = today.getDate();
+      var bday = bdate.getDate() + 1; //for some reason I need to add 1 to date
+      //console.log("tday = " + tday);
+      //console.log("bday = " + bday);
+      if ( tday > bday ) {
+        formsubmitted();
+      }
+      else if ( tday = bday ) {
+        console.log("HAPPY BIRTHDAY");
+        formsubmitted();
+      }
+      else {
+        console.log("Less than 18 yrs. old");
+        notlegal();
+      }
     }
     else {
       console.log("Less than 18 yrs. old");
