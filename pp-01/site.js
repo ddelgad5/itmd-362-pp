@@ -14,10 +14,12 @@ $('#form').on("submit", function(e) {
     //calculate months
     var tmonth = today.getMonth();
     var bmonth = bdate.getMonth();
+    //console.log("tmonth = " + tmonth);
+    //console.log("bmonth = " + bmonth);
     if ( tmonth > bmonth ) {
       formsubmitted();
     }
-    else if ( tmonth = bmonth ) {
+    else if ( tmonth === bmonth ) {
       //calculate days
     }
     else {
