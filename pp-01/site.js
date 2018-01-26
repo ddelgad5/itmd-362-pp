@@ -21,6 +21,11 @@ $('#form').on("submit", function(e) {
     }
     else if ( tmonth === bmonth ) {
       //calculate days
+      var tday = today.getDay();
+      var bday = bdate.getDay();
+      console.log("tday = " + tday);
+      console.log("bday = " + bday);
+      
     }
     else {
       console.log("Less than 18 yrs. old");
