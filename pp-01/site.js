@@ -1,6 +1,6 @@
 $('#form').on("submit", function(e) {
   e.preventDefault(); //Prevent link
-  console.log("Form Submitted"); //Add to console
+  console.log("Attempting submission"); //Add to console
   var today = new Date(); //Get todays date
   var bdate = $('#date')[0].valueAsDate; //Get user DOB
   var tyear = today.getFullYear(); //Get todays year
@@ -25,7 +25,7 @@ $('#form').on("submit", function(e) {
       var bday = bdate.getDay();
       console.log("tday = " + tday);
       console.log("bday = " + bday);
-      
+
     }
     else {
       console.log("Less than 18 yrs. old");
