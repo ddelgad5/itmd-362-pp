@@ -28,7 +28,7 @@ $('#form').on("submit", function(e) {
       if ( tday > bday ) {
         formsubmitted();
       }
-      else if ( tday = bday ) {
+      else if ( tday === bday ) {
         console.log("HAPPY BIRTHDAY");
         formsubmitted();
       }
