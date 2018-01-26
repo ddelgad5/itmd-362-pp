@@ -11,7 +11,19 @@ $('#form').on("submit", function(e) {
   }
   else if ( tyear - byear === 18 ) {
     console.log("Equal to 18 yrs. old");
-
+    //calculate months
+    var tmonth = today.getMonth();
+    var bmonth = bdate.getMonth();
+    if ( tmonth > bmonth ) {
+      formsubmitted();
+    }
+    else if ( tmonth = bmonth ) {
+      //calculate days
+    }
+    else {
+      console.log("Less than 18 yrs. old");
+      notlegal();
+    }
   }
   else {
     console.log("Less than 18 yrs. old");
