@@ -6,15 +6,15 @@ $('#form').on("submit", function(e) {
   var tyear = today.getFullYear(); //Get todays year
   var byear = bdate.getFullYear(); //Get users YOB
   if ( tyear - byear > 18 ) {
-    console.log("Greater than 21 yrs. old");
+    console.log("Greater than 18 yrs. old");
     formsubmitted();
   }
   else if ( tyear - byear === 18 ) {
-    console.log("Equal to 21 yrs. old");
+    console.log("Equal to 18 yrs. old");
 
   }
   else {
-    console.log("Less than 21 yrs. old");
+    console.log("Less than 18 yrs. old");
     notlegal();
   }
 });
