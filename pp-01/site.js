@@ -5,17 +5,17 @@ $('#form').on("submit", function(e) {
   var bdate = $('#date')[0].valueAsDate; //Get user DOB
   var tyear = today.getFullYear(); //Get todays year
   var byear = bdate.getFullYear(); //Get users YOB
-  if ( tyear - byear > 21 ) {
+  if ( tyear - byear > 18 ) {
     console.log("Greater than 21 yrs. old");
     formsubmitted();
   }
-  else if ( tyear - byear === 21 ) {
+  else if ( tyear - byear === 18 ) {
     console.log("Equal to 21 yrs. old");
 
   }
   else {
     console.log("Less than 21 yrs. old");
-    not21();
+    notlegal();
   }
 });
 
@@ -24,7 +24,6 @@ function formsubmitted() {
 
 }
 
-function not21() {
-  console.log("Under 21");
-  
+function notlegal() {
+  window.alert("")
 }
