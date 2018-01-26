@@ -25,5 +25,5 @@ function formsubmitted() {
 }
 
 function notlegal() {
-  window.alert("You must be 18 years or older to sumbit this form.");
+  window.alert("You must be 18 years or older.");
 }
