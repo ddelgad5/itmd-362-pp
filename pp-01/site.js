@@ -21,7 +21,8 @@ $('#form').on("submit", function(e) {
 
 function formsubmitted() {
   console.log("Form passed proper tests");
-
+  $('#form').remove();
+  $('body').append('<h2 id="post">Form submitted successfully.</h2>');
 }
 
 function notlegal() {
