@@ -55,6 +55,8 @@ function formsubmitted() {
 }
 
 function notlegal() {
-  $('#lisubmit').append('<p class="alert">You must be 18 years or older.</p>');
+  if ( $('#date-alert').length===0 ) {
+    $('#lidate').append('<p class="alert" id="date-alert">You must be 18 years or older.</p>');
+  }
   //  window.alert("You must be 18 years or older.");
 }
