@@ -1,30 +1,30 @@
 $('#form').on("submit", function(e) {
-  e.preventDefault(); //Prevent link
-  console.log("Attempting submission"); //Add to console
-  var today = new Date(); //Get todays date
-  var bdate = new Date($('#date')[0].value); //Get user DOB
-  var tyear = today.getFullYear(); //Get todays year
-  var byear = bdate.getFullYear(); //Get users YOB
+  var today = new Date(); //	Get todays date
+  var bdate = new Date($('#date')[0].value); //		Get user DOB
+  var tyear = today.getFullYear(); //	Get todays year
+  var byear = bdate.getFullYear(); //	Get users YOB
+  var tmonth = today.getMonth();
+  var bmonth = bdate.getMonth();
+  var tday = today.getDate();
+  var bday = bdate.getDate() + 1; //	for some reason I need to add 1 to date
+
+  e.preventDefault(); //	Prevent link
+  console.log("Attempting submission"); //	Add to console
   if ( tyear - byear > 18 ) {
     console.log("Greater than 18 yrs. old");
     formsubmitted();
   }
   else if ( tyear - byear === 18 ) {
+
     console.log("Equal to 18 yrs. old");
-    //calculate months
-    var tmonth = today.getMonth();
-    var bmonth = bdate.getMonth();
-    //console.log("tmonth = " + tmonth);
-    //console.log("bmonth = " + bmonth);
+    //	console.log("tmonth = " + tmonth);
+    //	console.log("bmonth = " + bmonth);
     if ( tmonth > bmonth ) {
       formsubmitted();
     }
     else if ( tmonth === bmonth ) {
-      //calculate days
-      var tday = today.getDate();
-      var bday = bdate.getDate() + 1; //for some reason I need to add 1 to date
-      //console.log("tday = " + tday);
-      //console.log("bday = " + bday);
+      //	console.log("tday = " + tday);
+      //	console.log("bday = " + bday);
       if ( tday > bday ) {
         formsubmitted();
       }
