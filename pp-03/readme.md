@@ -11,8 +11,8 @@ Opt for the Paletton Preview mode Default with Text http://paletton.com/
 
 1. A monochromatic color palette for a site introducing a new console gaming platform
 
-Your Palette URL:
-Your Rationale:
+Your Palette URL: http://paletton.com/#uid=14N0u0k00kH02yT00qb01fa0t8A
+Your Rationale: I decided to go with a grayscale.  This is because the website should be straightforward displaying the technological advances of the next generation of gaming consoles.
 
 2. An adjacent color palette for announcing springtime tours at the Chicago Botanical Gardens
 
