@@ -30,8 +30,8 @@ Small commits to your Production Problems repository that include:
 * HCI Guidline One (URL): https://material.io/guidelines/components/bottom-sheets.html#bottom-sheets-specs
 * How you implemented it in your sketch: Android has a guideline for using a feature called "Bottom Sheets."  This is a feature that has an additional "sheet" pop-up from the bottom of the screen with more information.  I used this idea to use a bottom sheet that contains support information that one might need when on the login page. See hcig-bottom-sheet.jpg for the sketch.
 
-* HCI Guidline Two (URL): hcig-2.jpg
-* How you implemented it in your sketch:
+* HCI Guidline Two (URL): https://material.io/guidelines/components/text-fields.html#text-fields-layout
+* How you implemented it in your sketch: The text field section of Android's design guidelines helped me figure out how to prompt users for their user name and password.  I kept Android's style by having a bottom border on the field and having a label above the field.  Not shown in the sketch is the bottom-border changing in thickness and/or color depending on the status/error.  If the user selects the text box, the bottom border changes to blue to hint that the text box is the selected text box.  The bottom border will be thicker and turn red if the user inputs an invalid email, blank field, or incorrect password.
 
-* HCI Guidline Three (URL): hci-2.jpg
+* HCI Guidline Three (URL):
 * How you implemented it in your sketch:
