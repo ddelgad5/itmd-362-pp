@@ -33,5 +33,5 @@ Small commits to your Production Problems repository that include:
 * HCI Guidline Two (URL): https://material.io/guidelines/components/text-fields.html#text-fields-layout
 * How you implemented it in your sketch: The text field section of Android's design guidelines helped me figure out how to prompt users for their user name and password.  I kept Android's style by having a bottom border on the field and having a label above the field.  Not shown in the sketch is the bottom-border changing in thickness and/or color depending on the status/error.  If the user selects the text box, the bottom border changes to blue to hint that the text box is the selected text box.  The bottom border will be thicker and turn red if the user inputs an invalid email, blank field, or incorrect password.
 
-* HCI Guidline Three (URL):
-* How you implemented it in your sketch:
+* HCI Guidline Three (URL): https://material.io/guidelines/style/imagery.html#imagery-best-practices
+* How you implemented it in your sketch: Android's image guidelines summarize that images need a point of focus.  For the upper 3rd of the home page, I centered the MyIIT logo and placed it over the IIT banner. When the page is loaded, the user will be gravitated to these two images and will know that they are on the MyIIT login page.
