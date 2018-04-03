@@ -27,7 +27,7 @@ Small commits to your Production Problems repository that include:
 2) an explanation of three different points of guidance from your chosen guidelines (point to the
    specific URL where the guidance can be found) that you implemented in your sketch, written below:
 
-* HCI Guidline One (URL): hcig-1.jpg
+* HCI Guidline One (URL): https://material.io/guidelines/components/bottom-sheets.html#bottom-sheets-specs
 * How you implemented it in your sketch:
 
 * HCI Guidline Two (URL): hcig-2.jpg
