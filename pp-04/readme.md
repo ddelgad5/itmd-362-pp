@@ -28,7 +28,7 @@ Small commits to your Production Problems repository that include:
    specific URL where the guidance can be found) that you implemented in your sketch, written below:
 
 * HCI Guidline One (URL): https://material.io/guidelines/components/bottom-sheets.html#bottom-sheets-specs
-* How you implemented it in your sketch:
+* How you implemented it in your sketch: Android has a guideline for using a feature called "Bottom Sheets."  This is a feature that has an additional "sheet" pop-up from the bottom of the screen with more information.  I used this idea to use a bottom sheet that contains support information that one might need when on the login page. See hcig-bottom-sheet.jpg for the sketch.
 
 * HCI Guidline Two (URL): hcig-2.jpg
 * How you implemented it in your sketch:
