@@ -15,18 +15,18 @@ your own master usability checklist.
 
 * URLs for the usability checklists you've found:
 
-1.
-2.
+1. https://mashable.com/2011/09/12/website-usability-tips/#QH7Gp7wur5qf
+2. https://www.snapagency.com/web-design-usability#fields
 
 * Your own condensed, ten-item must-have usability checklist:
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1. Typography is easy to read and pleasant.
+2. Easy to understand content
+3. Skimmable (easy to jump from topics going down the page)
+4. Cut out unnecessary information
+5. Use bulleted lists and text formatting (if semantic)
+6. Forms need to be short and require only what's necessary
+7. Link logo to homepage
+8. Secondary navigation (think shopping website "Household Items > Kitchen > Pots and Pans > Skillets")
+9. Call to action (ex: Reserve now, do something please)
+10. Template consistency
